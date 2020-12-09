@@ -98,3 +98,4 @@ There are a lot of different directions you could take this project to stretch y
   * A tool that colors a square and its neighbors.
   * A tool that combines colors. For example, if the color is red and you paint it yellow with this tool, you get orange.
   * A tool that allows you to select multiple squares for painting on all of them at once.
+# bs-paint-attractive
