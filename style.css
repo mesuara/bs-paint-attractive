@@ -3,16 +3,17 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 500px;
+
 }
 
 .headings {
+  padding: 10px;
   display: flex;
   flex-direction:column;
 }
 
 .brush-selection {
-  height: 70px;
+  /* height: ; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -20,7 +21,7 @@
 }
 
 .paint {
-  height: 250px;
+ 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -54,7 +55,7 @@
   grid-template-rows: repeat(10, 1fr);
   grid-template-columns: repeat(10, 1fr);
   height: 400px;
-  width: 200px;
+  width: 400px;
   border: 1px solid black;
 }
 
