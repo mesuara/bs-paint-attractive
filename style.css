@@ -64,7 +64,7 @@
 }
 
 .color-1 {
-  background-color: aqua;
+  background-color: #41213F;
 }
 
 .color-2 {
@@ -72,7 +72,7 @@
 }
 
 .color-3 {
-  background-color: brown;
+  background-color: #F7CA0E;
 }
 
 .color-4 {  
@@ -81,5 +81,9 @@
 }
 
 .color-5 {
-  background-color: cornflowerblue;
+  background-color: #1DA297;
+}
+
+.color-6{
+  background-color: #FF7C45;
 }
