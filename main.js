@@ -20,9 +20,33 @@ let count = 0;
 while (count <= gridWidth * gridWidth) {
   const canvas = document.querySelector('.canvas');
   const div = document.createElement('div');
-  div.className = 'square color-5';
+  div.className = 'square color-2';
   canvas.appendChild(div);
   count++;
+}
+
+const colorPalettes = document.querySelectorAll(".palette-color");
+const brush = document.querySelector(".current-brush");
+const canvas = document.querySelectorAll(".square"); 
+let color = '';
+const chooseColor = function(){
+    const bgc = this.classList[1];
+    const cc = brush.classList[1];
+    brush.classList.replace(cc,bgc)
+}
+for (const palette of colorPalettes){
+  palette.addEventListener('click',chooseColor);
+}
+const first = document.querySelector(".palette-color.color-1");
+
+const draw = function(){
+  const bgc = this.classList[1];
+  const bc = brush.classList[1];
+  this.classList.replace(bgc,bc);
+}
+
+for(const pixel of canvas){
+  pixel.addEventListener('click',draw)
 }
 
 // You probably should NOT do these in the order below.

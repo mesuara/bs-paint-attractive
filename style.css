@@ -1,24 +1,36 @@
 .app {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 500px;
 }
 
 .headings {
   display: flex;
+  flex-direction:column;
 }
 
 .brush-selection {
   height: 70px;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .paint {
   height: 250px;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .palette {
   display: flex;
+
+  
   margin-left: -30px;
 }
 
@@ -41,8 +53,8 @@
   display: grid;
   grid-template-rows: repeat(10, 1fr);
   grid-template-columns: repeat(10, 1fr);
-  height: 300px;
-  width: 300px;
+  height: 400px;
+  width: 200px;
   border: 1px solid black;
 }
 
@@ -51,21 +63,22 @@
 }
 
 .color-1 {
-
+  background-color: aqua;
 }
 
 .color-2 {
-
+  background-color: white;
 }
 
 .color-3 {
-
+  background-color: brown;
 }
 
-.color-4 {
-
+.color-4 {  
+  background-image: url(https://www.biography.com/.image/t_share/MTIwNjA4NjMzNzYwMjg2MjIw/nicolas-cage-9234498-1-402.jpg);
+  background-size: cover;
 }
 
 .color-5 {
-
+  background-color: cornflowerblue;
 }
